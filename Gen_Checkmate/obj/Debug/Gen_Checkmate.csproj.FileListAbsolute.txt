@@ -1,6 +1,7 @@
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Gen_Checkmate.exe.config
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Gen_Checkmate.exe
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Gen_Checkmate.pdb
-C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\Debug\Gen_Checkmate.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\Debug\Gen_Checkmate.exe
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\Debug\Gen_Checkmate.pdb
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Input1.txt
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\InputNo1.txt

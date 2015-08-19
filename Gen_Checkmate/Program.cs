@@ -10,8 +10,46 @@ namespace Gen_Checkmate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please type in the input filename:");
+            Console.WriteLine("Checkmate valuationer is started...");
+            while (true)
+            {
+                Console.WriteLine("Please type in the input path and/or filename, or type 'exit' to end.");
+                var filename = Console.ReadLine();
+                if (string.Compare(filename, "exit", StringComparison.OrdinalIgnoreCase) == 0) break;
 
+                if (string.IsNullOrWhiteSpace(filename)) continue;
+
+                string[] lines = {};
+                try
+                {
+                    lines = System.IO.File.ReadAllLines(filename);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Unable to read target input file, please try again..." + e.Message);
+                    continue;
+                }
+
+                // Display the file contents by using a foreach loop.
+                Console.WriteLine("Contents of the input file:  lines = " + lines.Length);
+                Console.WriteLine();//extra line
+                foreach (string line in lines)
+                {
+                    // Use a tab to indent each line of the file.
+                    Console.WriteLine("\t" + line);
+                }
+                Console.WriteLine();//extra line
+
+                Console.WriteLine("type 'ok' to get result, or type 'exit' to end, others to read file");
+                var command = Console.ReadLine();
+                if (string.Compare(command, "exit", StringComparison.OrdinalIgnoreCase) == 0) break;
+                if (string.Compare(command, "ok", StringComparison.OrdinalIgnoreCase) == 0)
+                {
+                    Console.WriteLine("under constructure...");
+                }
+            }
+
+            Console.WriteLine("Have a good day!  Press any key to exit.");
             Console.ReadKey();
         }
     }
