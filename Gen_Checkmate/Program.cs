@@ -10,7 +10,7 @@ namespace Gen_Checkmate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Checkmate valuationer is started...");
+            Console.WriteLine("Checkmate valuator is started...");
             while (true)
             {
                 Console.WriteLine("Please type in the input path and/or filename, or type 'exit' to end.");
@@ -45,7 +45,19 @@ namespace Gen_Checkmate
                 if (string.Compare(command, "exit", StringComparison.OrdinalIgnoreCase) == 0) break;
                 if (string.Compare(command, "ok", StringComparison.OrdinalIgnoreCase) == 0)
                 {
-                    Console.WriteLine("under constructure...");
+                    try
+                    {
+                        var isChecked = Checkmate.IsCheckmate(lines);
+                        Console.WriteLine(isChecked
+                            ? "Yes, the black king IS in checkmate."
+                            : "No, the black king is NOT in checkmate.");
+                        Console.WriteLine();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("error occours... " + e.Message);
+                    }
+                    
                 }
             }
 

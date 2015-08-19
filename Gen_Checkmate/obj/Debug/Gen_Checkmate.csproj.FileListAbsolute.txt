@@ -5,3 +5,8 @@ C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\D
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\Debug\Gen_Checkmate.pdb
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Input1.txt
 C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\InputNo1.txt
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\obj\Debug\Gen_Checkmate.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Input2.txt
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Input3.txt
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\Input4.txt
+C:\Users\user\Documents\GitHub\JobTest\JobTest\Gen_Checkmate\Gen_Checkmate\bin\Debug\InputNo2.txt
