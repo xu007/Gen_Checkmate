@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace Gen_Checkmate
             Console.WriteLine("Checkmate valuator is started...");
             while (true)
             {
+                Console.WriteLine();
                 Console.WriteLine("Please type in the input path and/or filename, or type 'exit' to end.");
                 var filename = Console.ReadLine();
                 if (string.Compare(filename, "exit", StringComparison.OrdinalIgnoreCase) == 0) break;
@@ -22,11 +24,20 @@ namespace Gen_Checkmate
                 string[] lines = {};
                 try
                 {
+                    if (!File.Exists(filename))
+                    {
+                        Console.WriteLine("Supplied filename: " + filename);
+                        Console.WriteLine("Unable to locate target input file, please try again.");
+                        continue;
+                    }
+
                     lines = System.IO.File.ReadAllLines(filename);
                 }
                 catch (Exception e)
                 {
+                    Console.WriteLine("Supplied filename: " + filename);
                     Console.WriteLine("Unable to read target input file, please try again..." + e.Message);
+
                     continue;
                 }
 
